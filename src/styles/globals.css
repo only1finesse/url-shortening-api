@@ -3,3 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .heroSection {
+    @apply w-full flex md:w-1/2 justify-center md:justify-start py-16;
+  }
+}
